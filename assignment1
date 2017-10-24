@@ -5,7 +5,13 @@
 <body>
 
 <h1>Welcome to my page</h1>
-<p>If you want to learn more about my page, keep scrolling down</p>
+<p>If you want to learn more about my page, keep scrolling down<br><br><p style="color:blue">keep going down</p>
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<img src="https://i.ytimg.com/vi/41_X8yUezfY/hqdefault.jpg">
 </body>
 </html>
