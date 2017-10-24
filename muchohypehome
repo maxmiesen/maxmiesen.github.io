@@ -11,14 +11,15 @@
     <h1>Form Demo</h1>
     <form>
        <fieldset>
-          <legend>Selecting elements</legend>
+          <legend>BRANDS</legend>
           <p>
              <label>Select list</label>
              <select id = "myList">
-               <option value = "1">one</option>
-               <option value = "2">two</option>
-               <option value = "3">three</option>
-               <option value = "4">four</option>
+               <option value = "1">SUPREME</option>
+               <option value = "2">BAPE</option>
+               <option value = "3">GUCHI</option>
+               <option value = "4">OFF WHITE</option>
+               <optionvalue = "5">SHOES</option>
              </select>
           </p>
        </fieldset>
