@@ -4,13 +4,35 @@
 </head>
 <body>
 
-<h1>Welcome to my page</h1>
-<p>If you want to learn more about my page, keep scrolling down<br><br><p style="color:blue">keep going down</p>
+<h1>Welcome to my page <br> </h1>
+<h2>I have to make this smaller <br> </h2>
+<h3>For this assignment <br> </h3>
+<h4>For no apparent reason <br> </h4>
+<h5>So don't worry <br> </h3>
+<p>If you want to learn more about my page, keep scrolling down <br> <br> </p>
+<p style="color:blue"> keep going down</p>
+<pre>Wait before you scroll more
 
-<br>
-<br>
-<br>
-<br>
+This is an example of "pre"
+
+Because it's also part of the assignment
+
+Just keep going down
+
+</pre>
+
+<body style="background-color:green;">
+<h1> raawrr xD </h1>
+</body>
+
+<body>
+
+<p>
+<b> This is bold </b>
+<i> DEEs is iTalLIC </i>
+
+
+
 <br>
 <img src="https://i.ytimg.com/vi/41_X8yUezfY/hqdefault.jpg">
 </body>
