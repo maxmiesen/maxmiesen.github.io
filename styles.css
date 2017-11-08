@@ -1,15 +1,17 @@
 h1 {
   color: teal;
+  font-family: "Verdana", Sans-Serif;
 }
 
 .title {
   text-decoration: underline;
   text-decoration-style: dotted;
-  font-family: "Verdana", sans-serif;
+  font-family: "Verdana", Sans-Serif;
 }
 
 h2 {
   font-size: 20px;
+  font-family: "Verdana", Sans-Serif;
 }
 
 table, th, td {
