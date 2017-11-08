@@ -18,8 +18,16 @@ table, th, td {
   border: 2px solid black;
 }
 
-table {
+.table {
   border-collapse: collapse;
+}
+
+.top-row {
+  font-family: "Verdana", Sans-Serif ;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 th, td {
