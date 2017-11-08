@@ -1,220 +1,329 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <title>Reference Page</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+ 
   </head>
-     
-     <h1>Reference Page</h1> 
+      <h1 class=title>Reference Page</h1> 
+      
+      
       
   <table>
     <tr>
       <th>Name</th>
       <th>Start Tag</th>
       <th>End Tag</th>
-      <th>Example</th>
     </tr>
    
     <tr>
       <td>HTML</td>
       <td>&lt;html&gt;</td>
       <td>&lt;/html&gt;</td>
-      <td>&lt;html&gt; head and body &lt;/html&gt;</td>
     </tr>
     <tr>
       <td>Head</td>
       <td>&lt;head&gt;</td>
       <td>&lt;/head&gt;</td>
-      <td>&lt;head&gt; head elements &lt;/head&gt;</td>
     </tr>
     <tr>
       <td>Title</td>
       <td>&lt;title&gt;</td>
       <td>&lt;/title&gt;</td>
-      <td>&lt;title&gt; page title &lt;/title&gt;</td>
     </tr>
     <tr>
       <td>Body</td>
       <td>&lt;body&gt;</td>
       <td>&lt;/body&gt;</td>
-      <td>&lt;body&gt; body elements &lt;/body&gt;</td>
     </tr>
     <tr>
       <td>Headings</td>
       <td>&lt;h1&gt;</td>
       <td>&lt;/h1&gt;</td>
-      <td>&lt;h1&gt; heading &lt;/h1&gt;</td>
     </tr>
     <tr>
       <td>Paragraph</td>
       <td>&lt;p&gt;</td>
       <td>&lt;/p&gt;</td>
-      <td>&lt;p&gt; paragraph &lt;/p&gt;</td>
     </tr>
     <tr>
       <td>Breaks</td>
       <td>&lt;br&gt;</td>
       <td>&lt;/br&gt;</td>
-      <td>&lt;br&gt;</td>
     </tr>
     <tr>
       <td>Lines</td>
       <td>&lt;hr&gt;</td>
       <td>&lt;/hr&gt;</td>
-      <td>&lt;hr&gt;</td>
     </tr>
     <tr>
       <td>Comments</td>
       <td>&lt;!--</td>
       <td>--&gt;</td>
-      <td>&lt;!-- comment--&gt;</td>
     </tr>
     <tr>
       <td>Links</td>
       <td>&lt;a&gt;</td>
       <td>&lt;/a&gt;</td>
-      <td>&lt;a href="example.com"&gt;website name&lt;/a&gt;</td>
     </tr>
     <tr>
       <td>Images</td>
       <td>&lt;img&gt;</td>
       <td>&lt;/img&gt;</td>
-      <td>&lt;img src="image url"&gt; </td>
     </tr>
     <tr>
       <td>Lists</td>
       <td>&lt;li&gt;</td>
       <td>&lt;/li&gt;</td>
-      <td>&lt;li&gt; list item word &lt;/li&gt;</td>
     </tr>
     <tr>
       <td>Tables</td>
       <td>&lt;table&gt;</td>
       <td>&lt;/table&gt;</td>
-      <td>&lt;th&gt; table heading &lt;/th&gt;</td>
     </tr>
     <tr>
       <td>Blocks</td>
       <td>&lt;div&gt;</td>
       <td>&lt;/div&gt;</td>
-      <td>&lt;div&gt; block element &lt;/div&gt;</td>
     </tr>
     
-    <hr>
     
   </table>    
   
-  <h2>HTML Tag</h2>
   
-      <pre>The DOCTYPE html is not a tag.  The purpose of it is to instruct the program on what language the page will be written in.  
-      The html tag after that has the same purpose of setting up the page to be written in html.
-      </pre>
-  
-  <h2>Head Tag</h2>
-      <pre>The purpose of the head tag is to exclude the "written" text from the actual page.</pre>
-  
-  <h2>Title Tag</h2>
-      <pre>The title tag is included in the head tags where the title is not visible/written on the actual page. The purpose of it is 
-      just to name the page itself.</pre>
-  
-  <h1>Heading 1</h1>
-  <h2>Heading 2</h2>
-  <h3>Heading 3</h3>
-  <br>
-  <pre>As seen above, the different heading tags (h1,h2,h3) can be used to give the text different attributes.  In HTML, these heading 
-  tags are automatically set with a default size and font where the h1 tag is the largest and the h3 tag is the smallest.  This is useful 
-  when you want to manipulate text and make each header look different.</pre>
-    
     <body>
-      
-      <h2>Unordered List:</h2>
-     <pre>The purpose of an unordered list is to present a list of words in a clean fashion.  The order of the different items in the list 
-     is not important in the ul tag.</pre>
-      
-      <div>
-      
-      <p>
-        <ul>
-        <li>Example 1</li>
-        <li>Example 2</li>
-        <li>Example 3</li>
-        </ul>
+      <h1>HTML</h1>
+      <h2>Description</h2>
+      <p>Sets the coding language for the page as "html"</p>
+      <h2>Syntax</h2>
+      <p>start tag: &lt;html&gt; <br>
+      content: html elements <br>
+      end tag: &lt;/html&gt; </p>
+      <h2>Example</h2>
+      <pre>
+&lt;html&gt; <br>
+  &lt;head&gt; <br>
+    &lt;title&gt;Title Name&lt;/title&gt; <br>
+  &lt;head&gt; <br> 
+&lt;html&gt; 
+      </pre>
+     </body>
+     
+     <body>
+      <h1>Head</h1>
+      <h2>Description</h2>
+      <p>Container for information that is not displayed on the page itself (things such as the title, styles, etc.)</p>
+      <h2>Syntax</h2>
+      <p>start tag: &lt;head&gt; <br>
+      content: head elements (title and styles)<br>
+      end tag: &lt;/head&gt; </p>
+      <h2>Example</h2>
+      <pre>
+&lt;html&gt; <br>
+  &lt;head&gt; <br>
+    &lt;title&gt;Title Name&lt;/title&gt; <br>
+  &lt;head&gt; <br> 
+&lt;html&gt; 
+      </pre>
+     </body>
+     
+     <body>
+      <h1>Title</h1>
+      <h2>Description</h2>
+      <p>The title tag is displayed at the top of the web browser and it briefly describes your site by naming it</p>
+      <h2>Syntax</h2>
+      <p>start tag: &lt;title&gt; <br>
+      content: Title Name <br>
+      end tag: &lt;/title&gt; </p>
+      <h2>Example</h2>
+      <pre>
+&lt;title&gt;CNN&lt;/title&gt;
+      </pre>
+     </body>
+     
+     <body>
+      <h1>Body</h1>
+      <h2>Description</h2>
+      <p>The body tags define the document's body which contains the entirity of dislayed text and images on the site</p>
+      <h2>Syntax</h2>
+      <p>start tag: &lt;body&gt; <br>
+      content: Body Elements <br>
+      end tag: &lt;/body&gt; </p>
+      <h2>Example</h2>
+      <pre>
+&lt;body&gt; <br>
+  &lt;p&gt; Insert paragraph here &lt;/p&gt; <br>
+&lt;/body&gt;
+      </pre>
+     </body>
+     
+     <body>
+      <h1>Headings</h1>
+      <h2>Description</h2>
+      <p>Heading tags are defined text styles set to a default.  You can change these and "style" them using CSS in order to personalize your website</p>
+      <h2>Syntax</h2>
+      <p>start tag: &lt;h1&gt; <br>
+      content: Heading text <br>
+      end tag: &lt;/h1&gt; </p>
+      <h2>Example</h2>
+      <pre>
+&lt;h1&gt; Chapter Tweleve: Homework Sucks &lt;/h1&gt;
+      </pre>
+     </body>
+     
+     <body>
+      <h1>Paragraph</h1>
+      <h2>Description</h2>
+      <p>The larger amounts of text in paragraph format are normally used with this tag.</p>
+      <h2>Syntax</h2>
+      <p>start tag: &lt;p&gt; <br>
+      content: Paragraph text <br>
+      end tag: &lt;/p&gt; </p>
+      <h2>Example</h2>
+      <pre>
+&lt;body&gt; <br>
+  &lt;p&gt; This is an example of a paragraph where I'm writing nonesense but showing how there is usually more writing here than there is in a heading tag &lt;/p&gt; <br>
+&lt;/body&gt;
+      </pre>
+     </body>
+     
+     <body>
+      <h1>Breaks</h1>
+      <h2>Description</h2>
+      <p>Breaks make your website easier to read because without them, you would have to scroll very far to the right to read everything.</p>
+      <h2>Syntax</h2>
+      <p>tag: &lt;br&gt; <br>
+      <h2>Example</h2>
+      <pre>
+&lt;p&gt; Paragraph here &lt;br&gt; <br>
+Paragraph here &lt;/p&gt; <br>
+      </pre>
+     </body>
+     
+     <body>
+      <h1>Lines</h1>
+      <h2>Description</h2>
+      <p>Lines can divide up the different text and images on your website and organizes everything.</p>
+      <h2>Syntax</h2>
+      <p>tag: &lt;hr&gt; <br>
+      <h2>Example</h2>
+      <pre>
+&lt;p&gt; Paragraph here &lt;hr&gt; <br>
+Paragraph here &lt;/p&gt; <br>
+      </pre>
+     </body>
+     
+     <body>
+      <h1>Comments</h1>
+      <h2>Description</h2>
+      <p>Comments can organize your code, you can leave reminders that explain confusing code, and you can also trouble shoot different parts of your code to see what isn't working.</p>
+      <h2>Syntax</h2>
+      <p>start tag: &lt;!-- <br>
+      content: Comment text <br>
+      end tag: --&gt; </p>
+      <h2>Example</h2>
+      <pre>
+&lt;!-- This #FFDF00 RGB code is gold --&gt; <br>
+      </pre>
+     </body>
+     
+     <body>
+      <h1>Links</h1>
+      <h2>Description</h2>
+      <p>You can include links to reference other pages made by different people or linking up your website with different pages</p>
+      <h2>Syntax</h2>
+      <p>start tag: &lt;a href=&gt; <br>
+      content: link url inside a href and text outside <br>
+      end tag: &lt;/a&gt; </p>
+      <h2>Example</h2>
+      <pre>
+&lt;a href="https://youtube.com"&gt;YouTube&lt;/a&gt; <br>
+      </pre>
+     </body>
+     
+     <body>
+      <h1>Images</h1>
+      <h2>Description</h2>
+      <p>Image tags are used to import any image url from the internet</p>
+      <h2>Syntax</h2>
+      <p>tag: &lt;img src=&gt; <br>
+      content: image url <br>
       </p>
-    </body> 
-    
-    </div>
-    
-    <h2>Image</h2>
-    <pre>You can import images from the internet by using the img src tags and then inserting the image URL in quotation marks in order to 
-    place that image on your website.  The URL normally ends in .jpg or .png</pre>
-    <img src="http://www.dm-3.com/wp-content/uploads/2013/06/example.png">
-    
-    <br>
-    
-    <pre>Links can be used to reference other websites and pages in your own website.  In this example below, I linked the URL for YouTube 
-    so by clicking the text labeled "Mystery Link", you will be redirected to the external link.  This is very useful if you want to have 
-    a more complex website that is multi-layered.</pre>
-    <a href="https://www.youtube.com/">Mystery Link</a>
-    
-    <h2>Ordered List</h2>
-    
-    <pre>An ordered list has items where the order matters.  In this specific case, it is ordered numerically with the first text entered 
-    with the #1 to the left of it (rather than bullet points that are present in unordered list)</pre>
-    <ol>
-      <li>Step 1</li>
-      <li>Step 2</li>
-      <li>Step 3</li>
-    </ol>
-    
-    <h2>Table</h2>
-    
-    <pre>A table is useful because you can easily present data, numbers, and words so that it is easy to read.  Without the table option, 
-    you would have text only going from left to right which wouldn't work very well in certain cases where you want to compare the different values.</pre>
-
-    <table>
-      <tr>
-        <th>Group 1</th>
-        <th>Group 2</th>
-        <th>Group 3</th>
-      </tr>
-      <tr>
-        <td>Attribute 1</td>
-        <td>Attribute 2</td>
-        <td>Attribute 3</td>
-      <tr>
-        <td>Attribute A</td>
-        <td>Attribute B</td>
-        <td>Attribute C</td>
-      </tr>    
-      
-    </table>
-    
-    <h2>Body</h2>
-    <pre>Body tags are used in order to break up text that you want to display on your website.  These are essential to be able to actually 
-    have written text on your website</pre>
-    
-    <h2>Paragraph</h2>
-    <pre>"p" or paragrah tags are used in order to write smaller text below the heading text.  This is very important for having basic text 
-    on your website.</pre>
-    
-    <h2>Breaks</h2>
-    <pre>Break tags "br" are used when you want to separate different text or images so that they are not side by side. Several break tags 
-    were used in this website to separate the text.</pre>
-    
-    <h2>Lines</h2>
-    <pre>Line tags "hr" have the same function as break tags but are much more pronounced since they display an actual line that you can see.</pre>
-    
-<h2>Comments</h2>
-<pre>Comments can be used in order to leave notes about your website without displaying text. It can also be used to temporarily remove 
-code without completely losing it.</pre>
-
-<h2>Links</h2>
-<pre>Link tags can be used in order to reference external websites/videos or to make a compound website where there are multiple pages that 
-you need to link up.</pre>
-
-    <h2>DIV</h2>
-    <pre>DIV block tags are used in order to give differen text and images attributes that can be controlled.  These are useful when you 
-    don't want the entire page having the same attributes and only for specific parts or the site.</pre>
-    
-      
-    </html>
-  
+      <h2>Example</h2>
+      <pre>
+&lt;img src="https://www.w3schools.com/css/img_fjords.jpg"&gt;<br>
+      </pre>
+     </body>
+     
+     <body>
+      <h1>Lists</h1>
+      <h2>Description</h2>
+      <p>Lists are used when displaying multiple items neatly</p>
+      <h2>Syntax</h2>
+      <p>start tag: &lt;li&gt; <br>
+      content: List items <br>
+      end tag: &lt;/li&gt; </p>
+      <h2>Example</h2>
+      <pre>
+&lt;li&gt; Apples &lt;/li&gt; <br>
+&lt;li&gt; Bananas &lt;/li&gt; <br>
+&lt;li&gt; Pineapples &lt;/li&gt;
+      </pre>
+     </body>
+     
+     <body>
+      <h1>Tables</h1>
+      <h2>Description</h2>
+      <p>Tables are used in order to display data or words inside a cell which can create different opportunities.</p>
+      <h2>Syntax</h2>
+      <p>start tag: &l;tr&gt; <br>
+      content: Table headings and table data <br>
+      end tag: &lt;/tr&gt; </p>
+      <h2>Example</h2>
+      <pre>
+&lt;tr&gt; <br>
+  &lt;th&gt; Name &lt;/th&gt; <br>
+  &lt;th&gt; School &lt;/th&gt; <br>
+&lt;/tr&gt; <br>
+&lt;tr&gt; <br>
+  &lt;td&gt; Max &lt;/th&gt; <br>
+  &lt;dh&gt; CCA &lt;/th&gt; <br>
+&lt;/tr&gt;
+      </pre>
+     </body>
+     
+     <body>
+      <h1>Blocks</h1>
+      <h2>Description</h2>
+      <p>Blocks are used in order to give certain parts of your code different attributes.</p>
+      <h2>Syntax</h2>
+      <p>start tag: &lt;div&gt; <br>
+      content: DIV elements <br>
+      end tag: &lt;/div&gt; </p>
+      <h2>Example</h2>
+      <pre>
+&lt;div style= "font-size:18px"&gt; <br>
+&lt;p&gt; This paragraph will have said attribute &lt;/p&gt; <br>
+&lt;h1&gt; This heading will also have 18px font size &lt;/h1&gt;
+          
+      </pre>
+     </body>
+     
+     </html>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
