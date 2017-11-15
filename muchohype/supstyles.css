@@ -1,0 +1,105 @@
+body {
+  padding-top: 153px;
+}
+
+.nounderline {
+  text-decoration: normal;
+}
+
+.brick {
+  width: 70%;
+  height: 70%;
+}
+.bape {
+  background-image: url("http://www.authenticsupreme.com/wallpapers/desktop/supreme-bape-camo.jpg");
+}
+
+.fire {
+  position: absolute;
+  width: 80%;
+  height:40%;
+  top: 0px;
+  left: 100px;
+}
+
+.title {
+  text-align: center;
+  margin: auto;
+  font-size: 25px;
+  color: #9e0000;
+  letter-spacing: 10px;
+  border-style: solid;
+  background-color: white;
+  border-width: 10px;
+  width: 500px;
+  font-family: "Verdana", sans-serif;
+  position: relative;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Futura",sans-serif;
+  font-size: 45px;
+  color: #9e0000;
+  text-decoration: underline;
+}
+
+.hypeimg {
+  width: 80%;
+  height:80%;
+}
+
+p {
+  font-size: 20px;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.button {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-family: "Verdana";
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: normal;
+  display: inline-block;
+  font-size: 16px;
+}
+
+table {
+  border-collapse: collapse;
+}
+table, th, td{
+  border: 2px solid black;
+  text-align: center;
+  vertical-align: middle;
+  padding: 15px;
+}
+th {
+  font-weight:bold;
+  color: white;
+  background-color: grey;
+}
+tr:hover {background-color: #bc7878;}
+
+.whitehouse {
+  width: 30%;
+  height: 30%;
+}
+
+
+
+
+
+
