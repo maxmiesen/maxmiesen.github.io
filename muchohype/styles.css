@@ -1,1 +1,68 @@
+body {
+  padding-top: 143px;
+  background-image: url("http://www.ideasphere.com/wp-content/uploads/2016/08/Savin-NY-Website-Background-Web-1.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+}
+
+.nounderline {
+  text-decoration: normal;
+}
+
+.bape {
+  background-image: url("http://www.authenticsupreme.com/wallpapers/desktop/supreme-bape-camo.jpg");
+}
+
+.fire {
+  position: absolute;
+  width: 80%;
+  height:40%;
+  top: 0px;
+  left: 100px;
+}
+
+.title {
+  text-align: center;
+  margin: auto;
+  font-size: 25px;
+  color: #9e0000;
+  letter-spacing: 10px;
+  border-style: solid;
+  background-color: white;
+  border-width: 10px;
+  width: 500px;
+  font-family: "Verdana", sans-serif;
+  position: relative;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Futura",sans-serif;
+  font-size: 45px;
+  color: #9e0000;
+  text-decoration: underline;
+}
+
+.hypeimg {
+  width: 80%;
+  height:80%;
+}
+
+p {
+  font-size: 20px;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: normal;
+}
+
 
