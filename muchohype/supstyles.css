@@ -14,13 +14,6 @@ body {
   background-image: url("http://www.authenticsupreme.com/wallpapers/desktop/supreme-bape-camo.jpg");
 }
 
-.fire {
-  position: absolute;
-  width: 80%;
-  height:40%;
-  top: 0px;
-  left: 100px;
-}
 
 .title {
   text-align: center;
@@ -98,8 +91,17 @@ tr:hover {background-color: #bc7878;}
   height: 30%;
 }
 
+.pump {
+  width: 50%;
+  height: 50%;
+}
 
+.footer {
+  font-size: 20px;
+  font-style: normal;
+}
 
+.square {list-style-type: square;}
 
 
 
